@@ -40,7 +40,7 @@ import { Checkbox } from "./components/ui/checkbox";
           resolver: zodResolver(FormSchema),
         });
         const handleNext = () => {
-          window.location.href = 'http://aeonaxy.com/'; 
+          window.location.href = 'https://aeonaxy-assignment-hotl0a85u-shaina-08.vercel.app/'; 
         };
         const items = [
           {
