@@ -132,6 +132,9 @@ body {
   margin-bottom: 30px;
   margin-right: 120px;
 }
+.checkbox {
+  margin-left: 60px;
+}
 .question {
   width: 42vw;
   font-family: "sans-serif";

@@ -282,7 +282,7 @@ import { Checkbox } from "./components/ui/checkbox";
 
                         <FormControl>
                         <Checkbox
-                        className=" ml-20 xl:ml-0"
+                       className="checkbox"
               checked={isChecked}
               onCheckedChange={(checked) => handleCheckboxChange(item.id)}
             
