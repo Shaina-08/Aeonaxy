@@ -117,13 +117,13 @@ import { Checkbox } from "./components/ui/checkbox";
                     <FormLabel className="question flex xl:text-base "> Do you currently run an online business? </FormLabel>
                     <Select  onValueChange={field.onChange} defaultValue={field.value} className="text-base color-black font-bold">
                       <FormControl>
-                        <SelectTrigger  className="rounded font-bold text-gray-700 text-sm h-10 w-2/3 mx-14 border-gray-400 hover:bg-gray-100 hover:outline-gray-600">
+                        <SelectTrigger  className="rounded font-bold text-gray-700 text-sm h-10 w-5/6 mx-14 border-gray-400 hover:bg-gray-100 hover:outline-gray-600">
                           <SelectValue     placeholder="Please choose an option..." />
                         </SelectTrigger>
                       </FormControl>
                       <SelectContent style={{ color: 'black' , fontWeight:"500", backgroundColor:"white" }} >
-                        <SelectItem  value="Yes" style={{ color: 'gray' , fontWeight:"500", backgroundColor:"white" , width:"500px" }}>Yes</SelectItem>
-                        <SelectItem value="No" style={{ color: 'gray' , fontWeight:"500", backgroundColor:"white"}}>No, just exploring!</SelectItem>
+                        <SelectItem  value="Yes" style={{ color: 'black' , fontWeight:"500", backgroundColor:"white"  }}>Yes</SelectItem>
+                        <SelectItem value="No" style={{ color: 'black' , fontWeight:"500", backgroundColor:"white"}}>No, just exploring!</SelectItem>
                       </SelectContent>
                     </Select>
                   
@@ -141,14 +141,14 @@ import { Checkbox } from "./components/ui/checkbox";
                     <FormLabel className="question flex mb-1 xl:text-base">I primarily identify as a:</FormLabel>
                     <Select  onValueChange={field.onChange} defaultValue={field.value} className="text-base color-black font-bold">
                       <FormControl>
-                        <SelectTrigger  className="rounded font-bold text-gray-700 text-sm h-10 w-2/3 mx-14 border-gray-400">
+                        <SelectTrigger  className="rounded font-bold text-gray-700 text-sm h-10 w-5/6 mx-14 border-gray-400">
                           <SelectValue     placeholder="Please choose an option..." />
                         </SelectTrigger>
                       </FormControl>
                       <SelectContent style={{ color: 'black' , fontWeight:"500", backgroundColor:"white" }} >
-                        <SelectItem  value="Student" style={{ color: 'gray' , fontWeight:"500", backgroundColor:"white"  }}>Student</SelectItem>
-                        <SelectItem value="Freelancer" style={{ color: 'gray' , fontWeight:"500", backgroundColor:"white"}}>Freelancer or Consultant (project-based work)</SelectItem>
-                        <SelectItem value="Engineer" style={{ color: 'gray' , fontWeight:"500", backgroundColor:"white"}}>Engineer</SelectItem>
+                        <SelectItem  value="Student" style={{ color: 'black' , fontWeight:"500", backgroundColor:"white"  }}>Student</SelectItem>
+                        <SelectItem value="Freelancer" style={{ color: 'black' , fontWeight:"500", backgroundColor:"white"}}>Freelancer or Consultant (project-based work)</SelectItem>
+                        <SelectItem value="Engineer" style={{ color: 'black' , fontWeight:"500", backgroundColor:"white"}}>Engineer</SelectItem>
 
                      
                       </SelectContent>
@@ -168,13 +168,13 @@ import { Checkbox } from "./components/ui/checkbox";
                     <FormLabel className="question flex mb-1 xl:text-base">Are you teaching or offering content oline?</FormLabel>
                     <Select  onValueChange={field.onChange} defaultValue={field.value} className="text-base color-black font-bold">
                       <FormControl>
-                        <SelectTrigger  className="rounded font-bold text-gray-700 text-sm w-2/3 mx-14 h-10 border-gray-400">
+                        <SelectTrigger  className="rounded font-bold text-gray-700 text-sm w-5/6 mx-14 h-10 border-gray-400">
                           <SelectValue     placeholder="Please choose an option..." />
                         </SelectTrigger>
                       </FormControl>
                       <SelectContent style={{ color: 'black' , fontWeight:"500", backgroundColor:"white" }} >
-                        <SelectItem  value="Yesstarted" style={{ color: 'gray' , fontWeight:"500", backgroundColor:"white" , width:"500px" }}>Yes</SelectItem>
-                        <SelectItem value="Notyet" style={{ color: 'gray' , fontWeight:"500", backgroundColor:"white"}}>No, I'm just getting started sharing my knowledge</SelectItem>
+                        <SelectItem  value="Yesstarted" style={{ color: 'black' , fontWeight:"500", backgroundColor:"white"  }}>Yes</SelectItem>
+                        <SelectItem value="Notyet" style={{ color: 'black' , fontWeight:"500", backgroundColor:"white"}}>No, I'm just getting started sharing my knowledge</SelectItem>
                       </SelectContent>
                     </Select>
                   
@@ -192,14 +192,14 @@ import { Checkbox } from "./components/ui/checkbox";
                     <FormLabel className="question flex mb-1 xl:text-base ">How big is your current audience(email list,social media followers, subscribers, etc.)?</FormLabel>
                     <Select  onValueChange={field.onChange} defaultValue={field.value} className="text-base color-black font-bold">
                       <FormControl>
-                        <SelectTrigger  className="rounded font-bold text-gray-700 text-sm  w-2/3 mx-14 h-10 border-gray-400">
+                        <SelectTrigger  className="rounded font-bold text-gray-700 text-sm  w-5/6 mx-14 h-10 border-gray-400">
                           <SelectValue     placeholder="Please choose an option..." />
                         </SelectTrigger>
                       </FormControl>
                       <SelectContent style={{ color: 'black' , fontWeight:"500", backgroundColor:"white" }} >
-                        <SelectItem  value="Nano" style={{ color: 'gray' , fontWeight:"500", backgroundColor:"white"  }}>1-10 people</SelectItem>
-                        <SelectItem value="Micro" style={{ color: 'gray' , fontWeight:"500", backgroundColor:"white"}}>1-100 people</SelectItem>
-                        <SelectItem value="Mega" style={{ color: 'gray' , fontWeight:"500", backgroundColor:"white"}}>1-1,000 people</SelectItem>
+                        <SelectItem  value="Nano" style={{ color: 'black' , fontWeight:"500", backgroundColor:"white"  }}>1-10 people</SelectItem>
+                        <SelectItem value="Micro" style={{ color: 'black' , fontWeight:"500", backgroundColor:"white"}}>1-100 people</SelectItem>
+                        <SelectItem value="Mega" style={{ color: 'black' , fontWeight:"500", backgroundColor:"white"}}>1-1,000 people</SelectItem>
 
                      
                       </SelectContent>
@@ -219,14 +219,14 @@ import { Checkbox } from "./components/ui/checkbox";
                     <FormLabel className="question flex mb-1 xl:text-base">Which topic is most relevant to your business or content?</FormLabel>
                     <Select  onValueChange={field.onChange} defaultValue={field.value} className="text-base color-black font-bold">
                       <FormControl>
-                        <SelectTrigger  className="rounded font-bold text-gray-700 text-sm w-2/3 mx-14 h-10 border-gray-400">
+                        <SelectTrigger  className="rounded font-bold text-gray-700 text-sm w-5/6 mx-14 h-10 border-gray-400">
                           <SelectValue     placeholder="Please choose an option..." />
                         </SelectTrigger>
                       </FormControl>
                       <SelectContent style={{ color: 'black' , fontWeight:"500", backgroundColor:"white" }} >
-                        <SelectItem  value="Photo" style={{ color: 'gray' , fontWeight:"500", backgroundColor:"white"  }}>Photo & Video</SelectItem>
-                        <SelectItem value="Education" style={{ color: 'gray' , fontWeight:"500", backgroundColor:"white"}}>Education</SelectItem>
-                        <SelectItem value="Fashion" style={{ color: 'gray' , fontWeight:"500", backgroundColor:"white"}}>Fashion</SelectItem>
+                        <SelectItem  value="Photo" style={{ color: 'black' , fontWeight:"500", backgroundColor:"white"  }}>Photo & Video</SelectItem>
+                        <SelectItem value="Education" style={{ color: 'black' , fontWeight:"500", backgroundColor:"white"}}>Education</SelectItem>
+                        <SelectItem value="Fashion" style={{ color: 'black' , fontWeight:"500", backgroundColor:"white"}}>Fashion</SelectItem>
 
                      
                       </SelectContent>
@@ -246,14 +246,14 @@ import { Checkbox } from "./components/ui/checkbox";
                     <FormLabel className="question flex mb-1 xl:text-base">Approximately how much money do you make charging for your knowledge today (in courses,consulting,books,speaking,etc.)? We ask this so that we can provide you with relevant resources for the size and stage of your business.</FormLabel>
                     <Select  onValueChange={field.onChange} defaultValue={field.value} className="text-base color-black font-bold">
                       <FormControl>
-                        <SelectTrigger  className="rounded font-bold text-gray-700 text-sm w-2/3 mx-14 h-10 border-gray-400">
+                        <SelectTrigger  className="rounded font-bold text-gray-700 text-sm w-5/6 mx-14 h-10 border-gray-400">
                           <SelectValue     placeholder="Please choose an option..." />
                         </SelectTrigger>
                       </FormControl>
                       <SelectContent style={{ color: 'black' , fontWeight:"500", backgroundColor:"white" }} >
-                        <SelectItem  value="Market" style={{ color: 'gray' , fontWeight:"500", backgroundColor:"white"  }}>Accordig to market</SelectItem>
-                        <SelectItem value="Relevant" style={{ color: 'gray' , fontWeight:"500", backgroundColor:"white"}}>Relevant</SelectItem>
-                        <SelectItem value="noanswer" style={{ color: 'gray' , fontWeight:"500", backgroundColor:"white"}}>I prefer not to answer</SelectItem>
+                        <SelectItem  value="Market" style={{ color: 'black' , fontWeight:"500", backgroundColor:"white"  }}>Accordig to market</SelectItem>
+                        <SelectItem value="Relevant" style={{ color: 'black' , fontWeight:"500", backgroundColor:"white"}}>Relevant</SelectItem>
+                        <SelectItem value="noanswer" style={{ color: 'black' , fontWeight:"500", backgroundColor:"white"}}>I prefer not to answer</SelectItem>
 
                      
                       </SelectContent>
@@ -306,14 +306,14 @@ import { Checkbox } from "./components/ui/checkbox";
                     <FormLabel className="question flex mb-1 xl:text-base">How much content or training material(videos,worksheets,downloads,etc.) have you already prepared?</FormLabel>
                     <Select  onValueChange={field.onChange} defaultValue={field.value} className="text-base color-black font-bold">
                       <FormControl>
-                        <SelectTrigger  className="rounded font-bold text-gray-700 text-sm h-10 w-2/3 mx-14 border-gray-400">
+                        <SelectTrigger  className="rounded font-bold text-gray-700 text-sm h-10 w-5/6 mx-14 border-gray-400">
                           <SelectValue     placeholder="Please choose an option..." />
                         </SelectTrigger>
                       </FormControl>
-                      <SelectContent style={{ color: 'black' , fontWeight:"500", backgroundColor:"white" }} >
-                        <SelectItem  value="started" style={{ color: 'gray' , fontWeight:"500", backgroundColor:"white"  }}>I've just started</SelectItem>
-                        <SelectItem value="ready" style={{ color: 'gray' , fontWeight:"500", backgroundColor:"white"}}>I have prepared enough material</SelectItem>
-                        <SelectItem value="Notready" style={{ color: 'gray' , fontWeight:"500", backgroundColor:"white"}}>None - I'm just getting started</SelectItem>
+                      <SelectContent style={{ color: 'black' , fontWeight:"500", backgroundColor:"white" , width:"full", border:"none" }} >
+                        <SelectItem  value="started" style={{ color: 'black' , fontWeight:"500", backgroundColor:"white"  }}>I've just started</SelectItem>
+                        <SelectItem value="ready" style={{ color: 'black' , fontWeight:"500", backgroundColor:"white"}}>I have prepared enough material</SelectItem>
+                        <SelectItem value="Notready" style={{ color: 'black' , fontWeight:"500", backgroundColor:"white"}}>None - I'm just getting started</SelectItem>
 
                      
                       </SelectContent>
