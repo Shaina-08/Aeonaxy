@@ -37,7 +37,7 @@ Contributions to this project are welcome! If you'd like to contribute, please f
 [Check out the live demo of the application here](https://aeonaxy-assignment-eight.vercel.app/).
 
 ## Connect With Us
-I'd love to hear from you! Feel free to connect with us on [shainabhard12@gmail.com](mailto:shainabhard12@gmail.com).
+I'd love to hear from you! Feel free to connect with me on [shainabhard12@gmail.com](mailto:shainabhard12@gmail.com).
 
 ## Badges
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
