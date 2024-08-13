@@ -8,8 +8,8 @@
   font-weight: 400;
   margin: 0;
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: #213547;
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -102,7 +102,7 @@ body {
   font-size: 32px;
   margin-bottom: 30px;
   font-weight: 400;
-  margin-right: 150px;
+  /* margin-right: 130px; */
 }
 
 .about {
@@ -157,7 +157,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #ffffff;
   cursor: pointer;
   transition: border-color 0.25s;
 }
